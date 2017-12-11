@@ -10,6 +10,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _emoji = require('./emoji');
 
 var _emoji2 = _interopRequireDefault(_emoji);
@@ -67,7 +71,7 @@ var EmojiRain = function (_Component) {
       this.drops = drops;
       this.active = active;
       var context = this.canvas.getContext('2d');
-      this.context.fillStyle = 'black';
+      context.fillStyle = 'black';
 
       window.addEventListener('resize', this.__resizeCanvas.bind(this));
       this.__resizeCanvas();
@@ -228,8 +232,8 @@ var EmojiRain = function (_Component) {
 }(_react.Component);
 
 EmojiRain.propTypes = {
-  drops: _react.PropTypes.number,
-  active: _react.PropTypes.bool
+  drops: _propTypes2.default.number,
+  active: _propTypes2.default.bool
 };
 
 exports.default = EmojiRain;

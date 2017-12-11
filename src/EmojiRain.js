@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 import emojis from './emoji';
 
@@ -34,7 +35,7 @@ class EmojiRain extends Component {
     this.drops = drops;
     this.active = active;
     const context = this.canvas.getContext('2d');
-    this.context.fillStyle = 'black';
+    context.fillStyle = 'black';
 
     window.addEventListener('resize', this.__resizeCanvas.bind(this));
     this.__resizeCanvas();
