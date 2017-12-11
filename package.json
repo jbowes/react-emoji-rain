@@ -1,8 +1,8 @@
 {
-  "name": "react-emoji-rain",
+  "name": "react-taco-rain",
   "version": "1.1.0",
-  "author": "Andrei Zvonimir Crnkovic <andrei@infinum.co>",
-  "description": "☔️✨ A React component that makes it rain emoji.",
+  "author": "James Bowes",
+  "description": "☔️✨ A React component that makes it raitacos.",
   "main": "dist-modules/index.js",
   "scripts": {
     "build": "babel src --out-dir dist-modules",
@@ -14,11 +14,12 @@
     "component",
     "react",
     "react-component",
-    "emoji"
+    "emoji",
+    "taco"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/andreicek/react-emoji-rain.git"
+    "url": "git://github.com/jbowes/react-taco-rain.git"
   },
   "license": "MIT",
   "peerDependencies": {
